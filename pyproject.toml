@@ -1,0 +1,26 @@
+[project]
+name = "mcp-server-deepdive-deployment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tom L", email = "aozora113@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=4.1.4",
+    "mcp[cli]>=2.3.0",
+]
+
+[project.scripts]
+mcp-server-deepdive-deployment = "mcp_server_deepdive_deployment:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
