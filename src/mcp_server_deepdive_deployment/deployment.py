@@ -12,4 +12,5 @@ def add(a: int, b: int) -> int:
     return a + b
 
 # Run the server
-mcp.run()
+if __name__ == "__main__":
+    mcp.run()
