@@ -7,7 +7,7 @@ To install the `add_tool` MCP server, run the following command:
       "args": [
         "--from",
         "git+https://github.com/aosora13/mcp-repo-trial.git",
-        "mcp-server"
+        "mcp-server-deepdive-deployment"
       ]
     }
   }
