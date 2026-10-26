@@ -11,6 +11,3 @@ def add(a: int, b: int) -> int:
     """Add two numbers"""
     return a + b
 
-# Run the server
-if __name__ == "__main__":
-    mcp.run()
